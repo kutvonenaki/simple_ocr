@@ -8,7 +8,7 @@ A Convolutional Recurrent Neural Network (CRNN) OCR baseline in tf.keras 2.1 usi
 
 In the current repo we only parse digits for simplicity, but the trdg text generator used in the repo can generate random sentences from Wikipedia for training a more general OCR model. That said, to achieve good performance on more challenging data domains such as noisy images, handwritten text, or text in a natural scene one would need to tune the model and data augmentation methods.  
 
-![Training the following simple model takes a few minutes on my laptop GPU but you could easily train it without GPU as well.](https://miro.medium.com/max/700/1*ytKJDCR8mZQsJzyMGFfk3w.gif)
+![Training the following simple model takes a few minutes on my laptop GPU but you could easily train it without GPU as well.](training.png)
 
 # How to
 To get started, download or clone this github repo and set up a Python environment containing Tensorflow 2.1, trdg (pip install trdg) and Jupyter notebook. You can also set up the environment using Docker following the instructions available later in this readme.  
